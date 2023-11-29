@@ -1,0 +1,106 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 500px;
+    height: auto;
+    z-index: -1;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
+header {
+    background-color: red !important; /* Set navbar background to transparent */
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    text-align: center;
+    color: white;
+    font-size: 200px;
+}
+
+section p {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0 20px;
+}
+#hobby {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 60px;
+    right: 900px;
+    bottom: 0;
+    left: 0px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-ml {
+    width: 60%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.judul{
+    color: white;
+    margin-top: 70px;
+    padding: 10px;
+}
+.mid{
+    width: 50%;
+    height: auto;
+}
+.kiri{
+    color: white;
+    margin-top: 81%;
+    padding: 10px;
+}
+
+
+
+
+
+.clock {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 7px;
+    animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    16.67% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.67% { color: blue; }
+    83.33% { color: indigo; }
+    100% { color: violet; }
+}

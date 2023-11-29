@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylr.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+
+  <video autoplay muted loop id="video-background">
+    <source src="tunnel_-_26475 (1080p).mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+    <div>
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="50px" src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#hobby">Hobby</a>
+                  </li>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <section class="container text-center">
+            <div class="row">
+              <div  class="col">
+                <img style="width: 300px; " src="myphoto.jpg" alt="">
+              </div>
+              <div class="col">
+                <h1 style="color: white; margin-left: 20px; margin-top: 100px; font-family: Arial, Helvetica, sans-serif; margin-right: 20px;"><b>Hello, i'm</b></h1>
+                <h1 style="width: 500px; margin-left: 20px; color: white; font-family: 'Times New Roman', Times, serif;">Aeriel Kislew Isai Hutabarat</h1>
+                <h1 style="color: white; margin-left: 20px; font-family: 'Times New Roman', Times, serif;">225150607111012</h1>
+
+              </div>
+
+            </div>
+          </section>
+    </div>
+
+
+
+    <section id="aboutme">
+      <div>
+        <h1 style="font-family: 'Courier New', Courier, monospace ;" class="page2">
+          ABOUT ME
+        </h1>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">Halo, saya Aeriel Kislew Isai Hutabarat, seorang mahasiswa di Universitas Brawijaya, Fakultas Ilmu Komputer, Program Studi Pendidikan Teknologi Informasi. Saat ini, saya berusia 19 tahun dan sedang menjalani semester 3 studi saya.
+          Saya berasal dari Jakarta dan tertarik dalam dunia teknologi sejak dini. Kegemaran saya dalam dunia teknologi dan komputer membawa saya untuk memilih pendidikan di bidang Pendidikan Teknologi Informasi.
+                      Selain fokus pada studi, saya juga memiliki minat dalam bermain game, bersepeda, dan photographer. Bermain game bukan hanya sebagai hiburan bagi saya, tetapi juga sebagai cara untuk memahami teknologi lebih dalam dan mengeksplorasi berbagai konsep yang terkait.</p>
+      </div>
+    </section>
+
+    <section id="hobby">
+      <div class="container text-center">
+          <div class="row">
+              <div  class="col">
+                  <!-- Changed styling for the video-ml -->
+                  <div class="video-container">
+                      <video autoplay muted loop id="video-ml" onclick="toggleVideo()">
+                          <source src="ml.mp4" type="video/mp4">
+                          Your browser does not support HTML5 video.
+                      </video>
+                  </div>a
+                  <h1  class="kiri">Ini waktu saya main ML dan turun ranked karena season</h1>
+              </div>
+              <div class="col">
+                  <img class="mid" src="photo.jpg" alt="">
+                  <h1 class="judul ">ini waktu saya berjalan-jalan bersama keluarga dan memfoto momen</h1>
+              </div>
+              <div class="col">
+                  <img class="mid" src="bike.jpg" alt="">
+                  <h1 class="judul ">Saya sedang sepedaan dari slipi ke PIK sekitar 60Km</h1>
+
+              </div>
+          </div>
+      </div>
+  </section>
+  <section>
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+  </section>
+  <script src="./DigitalClock.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
